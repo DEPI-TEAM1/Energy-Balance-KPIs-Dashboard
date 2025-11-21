@@ -1,0 +1,240 @@
+markdown
+# Egypt Energy Balance Analysis & Visualization (1971-2018)
+
+## 1. Introduction
+
+### 1.1 Overview
+According to the United Nations Division, an energy balance is "an accounting framework for compiling and synthesizing data on all energy products entering and present in a given country and its national territories during a specific reference period". 
+Energy balance analysis is crucial for evaluating national performance, policy alignment, and sustainability. For Egypt, understanding the balance between energy production and consumption enables better decision-making and supports strategic, economic, and environmental planning.
+
+### 1.2 Objectives
+This project aims to perform an in-depth data analysis of Egypt's energy balance (1971–2018), integrating robust analytical methods with sector-specific indicators to evaluate energy performance and sustainability progress.
+
+### 1.3 Scope
+- Assess Egypt’s status in relation to national and international commitments.
+- Support the achievement of sustainable energy targets.
+- Enhance national energy security.
+- Encourage diversification of energy sources.
+- Promote energy efficiency and optimal resource utilization.
+- Generate actionable insights for decision-makers.
+
+---
+
+## 2. Interactive Dashboard Preview
+
+Here is a preview of the main dashboard. The interactive report provides a comprehensive view of Egypt's energy landscape.
+
+![Dashboard Preview](path/to/your/dashboard_screenshot.png)
+
+---
+
+## 3. Key Performance Indicators (KPIs)
+
+The following KPIs were developed to measure and track Egypt's energy performance:
+
+|
+ KPI                                     
+|
+ Description                                                                                             
+|
+|
+---------------------------------------
+|
+-------------------------------------------------------------------------------------------------------
+|
+|
+**
+Import Dependency Ratio
+**
+|
+ The proportion of energy consumed that is imported, as a percentage of total energy consumption.        
+|
+|
+**
+Energy Mix Diversity Index
+**
+|
+ Measures the variety of energy sources in the energy mix (typically using the HHI index).               
+|
+|
+**
+Electricity Generation Diversity
+**
+|
+ Measures the variety of sources in the electricity generation mix.                                        
+|
+|
+**
+Energy Intensity
+**
+|
+ Measures the energy efficiency of the economy by calculating the ratio of TPES to GDP.                  
+|
+|
+**
+RE Share in FEC
+**
+|
+ The share of Renewable Energy in the Total Final Consumption.                                           
+|
+|
+**
+RE Share in Electricity Generation
+**
+|
+ The percentage of renewable energy in total electricity generation.                                     
+|
+|
+**
+Transmission & Distribution Losses
+**
+|
+ Energy losses occurring during electricity transmission from power plants to end-users.                 
+|
+|
+**
+Electrification Rate
+**
+|
+ The share of electricity in total final energy consumption.                                             
+|
+
+---
+
+## 4. Strategic Insights & Recommendations
+
+Our analysis of Egypt's energy system from 1971-2018 revealed several critical trends and actionable insights:
+
+#### **Insight 1: Exponential Growth in Energy Demand**
+- **Observation**: Continuous and steep growth in TPES, TFC, and electricity generation.
+- **Recommendation**: Shift from "meeting demand" to "managing demand" through robust energy efficiency and conservation policies.
+
+#### **Insight 2: Transportation Overtakes Industry as Top Consumer**
+- **Observation**: A structural shift where the transportation sector's energy share now surpasses the industrial sector.
+- **Recommendation**: Implement an urgent strategy for the transportation sector, focusing on public transport, EV incentives, and fuel efficiency standards.
+
+#### **Insight 3: Long-Term Decline in Overall Energy System Efficiency**
+- **Observation**: The TFC/TPES ratio shows a general downward trend, meaning a widening gap between energy produced and energy reaching the end-user.
+- **Recommendation**: Boost the efficiency of the power generation sector and reduce losses in the distribution grid.
+
+#### **Insight 4: Economic Growth is Still Tightly Coupled with Energy Consumption**
+- **Observation**: The energy intensity of the economy (TFC/GDP) has not shown a sustained long-term decline.
+- **Recommendation**: Implement policies to "decouple" economic growth from energy use by promoting knowledge-based industries and enforcing strict efficiency codes.
+
+#### **Insight 5: Strategic Shift from Oil to Heavy Reliance on Natural Gas**
+- **Observation**: Natural gas has replaced crude oil as the dominant energy source since the early 2000s.
+- **Recommendation**: The next strategic transition must be from natural gas dependency to true diversification towards renewable sources.
+
+#### **Insight 6: Contribution of Renewable Energy Remained Marginal for Decades**
+- **Observation**: Renewables consistently account for only ~5% of TPES, representing a massive missed opportunity.
+- **Recommendation**: Set more ambitious and binding renewable energy targets, supported by strong investment incentives.
+
+#### **Insight 7: Dominance of Petroleum Products in Final Consumption**
+- **Observation**: Petroleum products account for over 56% of final consumption, driven by the transport sector.
+- **Recommendation**: Diversifying energy sources in the transportation sector (electrification) is a strategic economic imperative to reduce vulnerability to oil price shocks.
+
+---
+
+## 5. Technical Documentation
+
+### 5.1 Data Sources
+Official datasets from the United Nations, World Bank, and Egypt’s Ministry of Electricity and Energy.
+
+### 5.2 Data Model & Relationships
+The data is structured in a star schema to optimize performance and simplify DAX calculations.
+
+![Data Model](path/to/your/data_model.png)
+
+### 5.3 DAX Calculations Summary
+A summary of the key DAX measures used in this project is provided in a separate document. You can find the complete list [here](Appendix_C_DAX_Calculations.md). 
+
+---
+
+## 6. Project Management
+
+### 6.1 Team Roles & Responsibilities
+
+|
+ Role                              
+|
+ Team Member 
+|
+ Responsibilities                                                               
+|
+|
+---------------------------------
+|
+-----------
+|
+------------------------------------------------------------------------------
+|
+|
+**
+Project Manager
+**
+|
+ Nancy       
+|
+ Project coordination, task distribution, communication, progress tracking.     
+|
+|
+**
+Data Engineer (ETL)
+**
+|
+ Esraa       
+|
+ Data extraction, transformation, loading; ensuring data consistency.           
+|
+|
+**
+Data Cleaning Specialist
+**
+|
+ Mona        
+|
+ Handling dataset inconsistencies, preparing cleaned data.                      
+|
+|
+**
+Measures & Calculation
+**
+|
+ Mostafa     
+|
+ DAX measures, KPI implementation.                                              
+|
+|
+**
+Dashboard & Visualization
+**
+|
+ Team        
+|
+ Building Power BI dashboards.                                                  
+|
+|
+**
+Documentation Lead
+**
+|
+ Hassan      
+|
+ Preparing project documentation.                                               
+|
+|
+**
+Presentation Designer
+**
+|
+ Alaa        
+|
+ Designing final slides and visualization for stakeholders.                     
+|
+
+### 6.2 Risk Assessment & Mitigation
+
+1.  **Data Issues**: Missing or irrational data entries.
+    - **Mitigation**: Cross-checking with UN/World Bank open datasets; applying interpolation and data validation.
+2.  **Confidentiality**: Sensitivity of energy data.
+    - **Mitigation**: Using only publicly available official sources; anonymizing sensitive entries.
