@@ -124,8 +124,8 @@ User guide for Egypt Energy Balance dashboard
 ## Course
 Microsoft Power BI Engineer (MS PBI)
 
-##Content
-1. Project Planning & Management
+## Content
+## 1. Project Planning & Management
 1.1. Project Proposal
 1.1.1. Overview of the project
 According to the United Nations Division, an energy balance is "an accounting framework for compiling and synthesizing data on all energy products entering and present in a given country and its national territories during a specific reference period". 
@@ -141,7 +141,7 @@ This project aims to perform an in-depth data analysis of Egypt's energy balance
 6. Generate actionable insights for decision-makers.
 1.2. Project Plan
 1.2.1 Timeline (Gantt chart)
-
+<img width="872" height="496" alt="image" src="https://github.com/user-attachments/assets/930bfce3-a4da-4f2e-aad8-304ec3335b95" />
 
 1.2.2. Milestones
 - Data Collection & Cleaning  
@@ -153,7 +153,19 @@ This project aims to perform an in-depth data analysis of Egypt's energy balance
 Dynamic, interactive and attractive dashboard that tell the story of Egyptian Energy data balance in insightful way showing the major KPIs in a way that allow stakeholders to take valuable decisions and potentiate political plans for future
 1.2.4. Resource allocation:
 Approximately 10–15% of the total project timeline to ensure the system's sustainability and regulatory compliance. 40% of work package assigned primarily to the Power BI Analyst for technical mapping and DAX measures to validate business logic, such as defining specific KPIs for energy Efficiency and renewable energy targets. 30 % of work was for visualizing the energy data in interactive a strategic view in addition to adding a sanky diagram an additional visualization tool for the most recent energy balance data 2023. Finally, 15% of work was for Documentation, presenting the project in different platforms such as git-hub.
-1.3. Task Assignment & Roles 
+
+1.3. Task Assignment & Roles
+Role	Team Member	Responsibilities
+Project Manager	Nancy	Project coordination, task distribution, communication with stakeholders, progress tracking.
+Data Cleaning and completing	Mona Nancy	Handling dataset inconsistencies, preparing cleaned data for analysis.
+		
+ETL	Esraa	Data extraction, transformation, and loading; ensuring data consistency and validity.
+Relationship building and determining KPIs	Nancy	Relationship building and determining KPIs
+Measures & Calculation	Mostafa	DAX measures, KPI implementation.
+Dashboard & Visualization Developer	Mostafa, Esraa, Nancy, Mona	Building Power BI dashboards.
+Documentation Lead	Hassan Nancy Mona	Preparing project documentation.
+Presentation Designer	Alaa	Designing final slides and visualization for stakeholders.
+
 	Our team consists of 6 members with different skills. 
 	Tasks were assigned to every person to match his field of excellence:
 Role	Team Member	Responsibilities
@@ -177,7 +189,6 @@ IEA – International Energy Agency
 and world bank for the period 1971-2018.
 o	2023 Energy data from Central Agency for Public Mobilization and Statistics (CAPMAS)
 o	2019-2021 Energy data weren’t used and not recommended due to COVID-19 pandemic
-
 4	The format and alignment of data weren’t suitable for analysis	Creative solutions by using knowledge gained through DEPI initiative in ETL and DAX measures for dealing with this hard data.
 
 1.5. KPIs (Key Performance Indicators) 
@@ -198,7 +209,7 @@ TFC 	Total Final Consumption that measures the energy consumed by end-users like
 Electricity Transmission and Distribution Losses	 It refers to energy losses that occur when electricity is transmitted and distributed from power plants to end-users.
 Electrification (% of electricity use in FEC) 	It shows the share of electricity in total final energy consumption
 
-2. Lecturer Review
+## 2. Lecturer Review
 2.1. Feedback & Evaluation
 
 Component	Weight	Criteria & Observations	Score
@@ -210,7 +221,8 @@ TOTAL	100%		100 / 100
 
 2.2. Suggested Improvements 
 Environmental measures such as Carbon emissions index can be added.
-3. Requirements Gathering
+
+## 3. Requirements Gathering
 3.1. Stakeholder Analysis
 3.1.1. Stakeholders:
 Egyptian presidency, The Egyptian Cabinet (Presidency of the Council of Ministers), ministry of electricity and renewable energy, Ministry of Petroleum and mineral resources, Ministry of Communications and Information Technology.
@@ -256,7 +268,8 @@ Identification of areas for energy efficiency improvement
 3.1.4.5. Reporting and Export:
 Generation of reports and summaries for stakeholders
 Export of data and reports in various formats (PDF, XLS, etc.)
-4. System Analysis & Design
+
+## 4. System Analysis & Design
 4.1. Problem Statement & Objectives 
  No Visualization tool or dash board has been done before for Egypt Energy Balance data analysis.
 
@@ -267,11 +280,14 @@ The dash board consists of: home page, over view, A Sankey diagram for Egypt ene
 A navigation is done through clickable buttons in each page.
 4.2.2. Relationship Diagram
 
+<img width="942" height="403" alt="image" src="https://github.com/user-attachments/assets/26a47c83-0362-4ec9-bd7c-69eed54063df" />
 
 4.2.3. Query Tables:
+<img width="945" height="454" alt="image" src="https://github.com/user-attachments/assets/fb251f9e-5773-49df-af18-b4ad28edc005" />
 
 
 4.2.4. Measures
+<img width="461" height="663" alt="image" src="https://github.com/user-attachments/assets/71e0455c-d87d-4800-b7aa-d4ac7d451f69" />
 
 4.2.5. Functional Requirements
 1. Data Visualization:
@@ -331,7 +347,8 @@ Cleaned Data: Flows from Process 2 (Preprocessing) to Process 3.0 (Transformatio
 Structured Dataset: Flows from Process 3 (Transformation) to Process 4.0 (Analysis).
 Insights & Metrics: Flows from Process 4 (Analysis) to Process 5.0 (Visualization).
 Final Dashboard: Flows from Process 5 to the User/Stakeholder.
-5. Implementation (Source Code & Execution)
+
+## 5. Implementation (Source Code & Execution)
 5.1. Source Code
 •	Tools: Microsoft Excel (for data storage) & Power BI Desktop.
 •	Power Query Editor: Used for ETL (Extract, Transform, Load) processes:
@@ -356,7 +373,8 @@ File Management: Energy Balance - Final.pbix
 •	Execution:
 •	Open Energy_Egypt_Analysis.pbix using Power BI Desktop.
 •	Dependencies: Requires Power BI Desktop installed to view the interactive version.
-6. Testing & Quality Assurance
+
+## 6. Testing & Quality Assurance
 6.1. Data Validation (Test Cases):
 •	Source vs. Output Check: Comparing the "Grand Total" in Power BI visuals against the "Sum" in the raw Excel sheets to ensure no data was lost during import.
 •	Slicer Testing: Verifying that when the "Year 2018" slicer is selected, all charts update to show only 2018 data (As an Example).
@@ -366,11 +384,13 @@ File Management: Energy Balance - Final.pbix
 •	Resolution: Changed "Year" summarization setting to "Don't Summarize" in Power BI.
 •	Issue: Excel sheets had different names for "Gas" (e.g., "Nat Gas" and "Natural Gas").
 •	Resolution: Standardized names in Excel using Find & Replace before importing.
-7. Final Presentation & Reports
+
+## 7. Final Presentation & Reports
 7.1. User Manual:
 •	Interactivity Guide: How to use "Slicers" to filter by Energy Type (Oil, Gas, Hydro).
 •	Drill-Down: Instructions on how to click on a specific data point to see more details.
 •	Tooltip Explanation: Implementation (Technical Description)
+<img width="804" height="444" alt="image" src="https://github.com/user-attachments/assets/30dd63ea-fb6b-4793-a8bd-6d43f779eac1" />
 
 
 Feature: Advanced Visualization Techniques (Report Page Tooltips)
@@ -380,6 +400,7 @@ User Manual: Implementation (Technical Description)
 Action: Sectoral Mix Analysis
 Instruction:
 By hovering over the 'Sector Share %' line chart, users can trigger a comparative breakdown. The pop-up window displays a stacked chart that reveals how different sectors consume energy. For example, users can instantly see what percentage of 'Non-Renewable' energy is consumed by the Industry sector versus the Residential sector for the selected time period.
+<img width="840" height="417" alt="image" src="https://github.com/user-attachments/assets/e556b344-d20b-4ae2-a7e7-feb3b682dfdd" />
 
 7.2. Technical Documentation:
 •	Data Model Schema: A screenshot of the "Model View" in Power BI showing tables (Fact Tables & Dimension Tables) and the lines connecting them. (Appendix A)
@@ -391,9 +412,11 @@ By hovering over the 'Sector Share %' line chart, users can trigger a comparativ
 7.5 Deployment & Execution
 
 
-8. Insights and Recommendations concluded from data strategic analysis of Egypt's Energy System (1971-2018)
+## 8. Insights and Recommendations concluded from data strategic analysis of Egypt's Energy System (1971-2018)
 8.1. Exponential Growth in Energy Demand Creates Sustained Pressure on Resources and Infrastructure.
 •	Observation: The (TPES and TFC by Year) and (Electricity Generated... by Year) charts show continuous and steep growth in Total Primary Energy Supply, Total Final Consumption, and electricity generation over the past five decades.
+<img width="889" height="513" alt="image" src="https://github.com/user-attachments/assets/cbe7fa8d-c8bc-4fe4-b0ea-0c29eeb97fb1" />
+
 •	Context: This massive growth is directly correlated with Egypt's rapid population growth, urbanization, and industrial economic development during this period.
 •	Implication & Recommendation:
 •	Implication: This relentless growth puts immense pressure on the energy infrastructure (power plants, grids) and requires massive, continuous investment just to keep pace with demand, posing a challenge to national energy security.
@@ -440,7 +463,8 @@ By hovering over the 'Sector Share %' line chart, users can trigger a comparativ
 •	Implication & Recommendation:
 •	Implication: While this has improved the quality of life and supported industrial growth, it is also the direct cause of the declining overall system efficiency (the TFC/TPES ratio). We are now consuming more "secondary energy" (electricity), which involves significant primary energy losses during generation.
 •	Recommendation: Since the shift towards electricity and gas is irreversible and beneficial for the end-user, the focus must now shift to making that electricity and gas supply more sustainable. This means generating electricity from renewable sources and boosting the efficiency of power plants.
-9. Egypt Energy Balance 2023 Insights
+
+## 9. Egypt Energy Balance 2023 Insights
 The 2022/2023 energy balance reveals an economy heavily anchored in Natural Gas (53%) and Petroleum (41%). While energy intensity is improving (indicating better efficiency per unit of GDP), the power sector remains the primary driver of gas demand, with significant conversion losses inherent to thermal generation.
 •	Renewable Energy Share: Fossil fuels still dominate Egypt's electricity generation, at 88% in 2023. Hydropower contributed 7%, and wind and solar accounted for 5%. The total installed capacity of renewable energy reached 7.7 GW across all types (wind, solar, and hydro).
 •	Consumption Trends: Primary energy consumption in Egypt showed a slight decline of 1% in 2023, following a 6% decline in 2022.
@@ -452,7 +476,6 @@ Egypt's total primary energy supply (TES) for the fiscal year was 92,057 thousan
 The "Energy Balance Sankey 2023" confirms that natural gas is the backbone of the system, feeding both the massive power generation sector and industrial feedstocks.
 2. Sectoral Consumption: Transport vs. Industry
 Total Final Energy Consumption (FEC) stood at 58,646 ktoe. The consumption behavior varies starkly by sector:
-
 
 Sector	Share of Consumption	Primary Energy Source
 Transport	38% (Highest)	Almost exclusively Petroleum Products.
@@ -503,68 +526,39 @@ A positive trend is observed in the "Energy Intensity" indicators, which measure
 •	Total Supply Intensity: Dropped from 14 (2015/16) to 11 (2022/23).
 •	Final Consumption Intensity: Dropped from 9 (2015/16) to 7 (2022/23).
 Insight: Egypt is generating more economic value (GDP) for every unit of energy consumed, indicating a gradual decoupling of economic growth from energy consumption.
-10. Conclusions and Recommendations
+
+## 10. Conclusions and Recommendations
 The Egypt Energy Balance Project (1971–2018) provided a data-driven overview of national energy dynamics, supported the identification of key inefficiencies, enabled insights for sustainability and policy improvements, laid the foundation for advanced forecasting models and real-time dashboards supporting Egypt Vision 2030.
 The dashboard tells a clear story: Egypt faces a dual challenge of massive, unabated growth in energy demand and a long-term decline in its overall energy system efficiency. The transportation sector has emerged as the new key driver of this consumption. To ensure a secure and sustainable energy future, the strategy must pivot from focusing solely on increasing supply to a more balanced approach that includes aggressive demand-side management, radical efficiency improvements, and a structural transformation of the transportation sector.
-11. Appendices
+
+## 11. Appendices
 - Appendix A: Sample Power BI Screenshots  
 - Appendix B: Data Tables Overview  
 - Appendix C: DAX Calculations Summary  
 
+## Appendix A: Sample Power BI Screenshots
+
+## Dashboard Home Page
+<img width="945" height="417" alt="image" src="https://github.com/user-attachments/assets/e4541be9-83f5-47e8-9745-92c0f58af401" />
+
+## Sankey Diagram
+<img width="945" height="566" alt="image" src="https://github.com/user-attachments/assets/72fa2398-1f11-4e1b-9846-5bcec6be6389" />
+<img width="945" height="563" alt="image" src="https://github.com/user-attachments/assets/043419fd-621d-435b-af90-78859b9ca851" />
+<img width="945" height="625" alt="image" src="https://github.com/user-attachments/assets/8bf92ef5-fd49-40c9-9028-ecd928a25388" />
+<img width="945" height="559" alt="image" src="https://github.com/user-attachments/assets/80fcc2a2-e3e7-44a7-8936-2e1d12487d46" />
+<img width="945" height="561" alt="image" src="https://github.com/user-attachments/assets/776c27ec-2ad8-414f-9f93-584d64a1042d" />
+
+## Appendix B: Data Tables Overview  
+<img width="945" height="571" alt="image" src="https://github.com/user-attachments/assets/a4593220-c5d0-4b79-b409-bc3102175513" />
+<img width="945" height="494" alt="image" src="https://github.com/user-attachments/assets/0e3919b5-5a87-4658-8edb-11d12ddef606" />
+<img width="945" height="498" alt="image" src="https://github.com/user-attachments/assets/7689537a-e173-4ed9-8303-d54021d328d3" />
+
+<img width="944" height="548" alt="image" src="https://github.com/user-attachments/assets/9f1f3d4f-b8e4-4933-b21b-c695aae2076e" />
+<img width="944" height="564" alt="image" src="https://github.com/user-attachments/assets/d93f768f-b0f8-4617-b68b-2cb852686c43" />
+<img width="529" height="753" alt="image" src="https://github.com/user-attachments/assets/fd3f2c6f-cd0b-4219-93a3-86228f12dc5d" />
 
 
-
-
-
-
-
-
-
-
-
-
-
-Appendix A: Sample Power BI Screenshots
-
-Dashboard Home Page
-
-Sankey Diagram
-
-
-
-
-
-
-
-
-
-
-
-
-Appendix B: Data Tables Overview  
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Appendix C: DAX Calculations Summary  
+## Appendix C: DAX Calculations Summary  
 
 1. Conversion of thermal power generation (%)
 DAX Formula:
@@ -759,5 +753,3 @@ Description:
 Total amount of energy available in the country, i.e., primary energy supply including production, imports
 
 
-
-# Energy-Balance-KPIs-Dashboard
