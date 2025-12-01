@@ -1,69 +1,130 @@
  
-Contents
-Contents	1
-1. Project Planning & Management	3
-1.1. Project Proposal	3
-1.1.1. Overview of the project	3
-1.1.2. Objectives	3
-1.1.3. Scope	3
-1.2. Project Plan	4
-1.2.1 Timeline (Gantt chart)	4
-1.2.2. Milestones	4
-1.2.3. Deliverables:	4
-1.2.4. Resource allocation:	4
-1.3. Task Assignment & Roles	4
-1.4. Risk Assessment & Mitigation Plan	5
-1.5. KPIs (Key Performance Indicators)	6
-2. Lecturer Review	7
-2.1. Feedback & Evaluation	7
-2.2. Suggested Improvements	7
-3. Requirements Gathering	8
-3.1. Stakeholder Analysis	8
-3.1.1. Stakeholders:	8
-3.1.2. Needs:	8
-3.1.3. User Stories & Use Cases	8
-3.1.4. Functional Requirements	9
-4. System Analysis & Design	9
-4.1. Problem Statement & Objectives	9
-4.2. Database Design & Data Modeling	10
-4.2.1. System Behavior	10
-4.2.2. Relationship Diagram	10
-4.2.3. Query Tables:	10
-4.2.4. Measures	11
-4.2.5. Functional Requirements	11
-4.3. KPIs (Key Performance Indicators)	12
-4.4. Data Flow Description	13
-4.4.1. Processes	13
-4.4.2. Data Flows	13
-5. Implementation (Source Code & Execution)	13
-5.1. Source Code	13
-5.2. Version Control & Collaboration	13
-6. Testing & Quality Assurance	14
-6.1. Data Validation (Test Cases):	14
-6.2. Bug Reports:	14
-7. Final Presentation & Reports	15
-7.1. User Manual:	15
-7.2. Technical Documentation:	16
-7.3. Project Presentation:	16
-7.4. Video Demonstration:	16
-7.5 Deployment & Execution	16
-8. Insights and Recommendations concluded from data strategic analysis of Egypt's Energy System (1971-2018)	17
-8.1. Exponential Growth in Energy Demand Creates Sustained Pressure on Resources and Infrastructure.	17
-8.2. The Transportation Sector Emerges as the New Primary Driver of Energy Consumption Growth, Overtaking Industry.	18
-8.3. Overall Energy System Efficiency Shows a Long-Term Decline.	18
-8.4. The Economy Has Not Decoupled Economic Growth from Energy Consumption.	19
-8.5. A Strategic Shift in the Energy Mix: From Oil Dominance to Heavy Reliance on Natural Gas	19
-8.6. The Contribution of Renewable Energy Has Remained Marginal for Decades	20
-8.7. Dominance of Petroleum Products in Final Consumption Reveals the Economy's Main Artery and its Vulnerability	20
-8.8. The Success Story of "Electrification and Gasification" Reshaped Demand but Exposed the Efficiency Challenge	20
-9. Egypt Energy Balance 2023 Insights	21
-10. Conclusions and Recommendations	24
-11. Appendices	24
-Appendix A: Sample Power BI Screenshots	25
-Appendix B: Data Tables Overview	28
-Appendix C: DAX Calculations Summary	30
+# Egypt Energy Balance Dashboard
 
- 
+## Project Description
+This project aims to perform an in-depth data analysis of Egypt's energy balance (1971–2018), integrating robust analytical methods with sector-specific indicators to evaluate energy performance and sustainability progress.
+
+## Files Included
+- dashboard.pbix - Main Power BI file
+- screenshots/ - Dashboard images
+- documentation.pdf - Project documentation
+
+## How to Use
+User guide for Egypt Energy Balance dashboard
+
+1. Getting Started  
+ • Open the file (Egypt Energy Balance 1971-2018) in Power BI app.  
+ • Navigate to dashboard. 
+• You land on the Intro (Home) page with a brief description of the dashboard’s purpose.
+2. Intro / Home Page  
+ • Purpose text (left): “This dashboard conducts an in-depth analysis of Egypt’s energy balance (1971–2018), visualizing energy performance, tracking sustainability indicators, and providing insights to inform strategic decisions.”  
+ • The menu (top right) expands to show the five-page links:  
+   – Sankey Diagram  
+   – Overview  
+   – Total Primary Energy Supply  
+   – Total Final Energy Consumption  
+   – Sectors Analysis  
+ • Back arrow at bottom returns you here from any page.
+3. Common Controls & Interactions  
+ • Year Slider (top right on every page)  
+   – Drag handles or click individual year blocks (e.g., 1971–2018) to select a single year or range.  
+   – After selection the page updates immediately or after you click “Apply.”  
+ • Info (i) button  
+   – Opens a short description of that page or visual.  
+ • More Options (⋯) on each visual  
+   – Export data (CSV/Excel)  
+   – Export visual (PNG/PDF)  
+   – Focus mode (full-screen)  
+ • Hover & Tooltips  
+   – Move your cursor over lines, bars, pie slices or flows to see exact values and metadata.  
+ • Legend interaction  
+   – Click an item in the legend to toggle its visibility in the chart.  
+ • Zoom / Pan  
+   – In line or area charts you can click-and-drag to zoom into a time window.
+4. Sankey Diagram Page  
+ Purpose: show primary energy flows from supply through transformation to final consumption.  
+ Top KPI cards:  
+   – Total Primary Energy Supply (TPES)  
+   – Total Transformation (e.g., power generation inputs)  
+   – Total Final Consumption (TFC)  
+   – Conversion efficiency (TFC/TPES %)  
+ Main Sankey:  
+   – Left nodes = Supply sources (Production, Imports, Exports, Bunkers)  
+   – Middle nodes = Transformation processes (Oil refineries, Power stations own use)  
+   – Right nodes = Final consumption sectors (Residential, Transport, Industry, Other)  
+   – Arrow widths ∝ energy quantity.  
+ Interactions:  
+   – Hover over a flow to read its name and value (e.g. “Oil Refineries → Power Stations: 200 ktoe”).  
+   – Click a node or legend item to highlight only its connected flows.  
+   – Use the Info icon for a quick explanation of Sankey conventions.
+5. Overview Page  
+ Purpose: high-level trends & sector shares over time.  
+ Top KPI cards:  
+   – TPES, Transformation, TFC, TFC/TPES %  
+ Below are eight mini-charts:  
+   1. Industry %, Residential % & Transport % by Year (line chart)  
+   2. TFC by Year & Energy Product Type (stacked area: non-renewables vs renewables)  
+   3. TFC/GDP % & TPES/GDP % by Year (line chart)  
+   4. Electricity Generated vs Total thermal inputs by Year (dual-line)  
+   5. TPES & TFC by Year (line chart)  
+   6. TFC/TPES by Year (line chart)  
+   7. TFC by Sectors & Energy Product (stacked bar)  
+   8. TFC by Sector shares (donut chart)  
+ Interactions: hover for values, click legend to filter, export charts via “⋯”.
+6. Total Primary Energy Supply Page  
+ Purpose: deep-dive on supply side.  
+ KPI cards: TPES total, TPES per capita (TPES/POP %), Inputs to power gen.  
+ Charts:  
+   1. TPES by Year & Energy Product (multi-series line)  
+   2. TPES/POP % by Year (line)  
+   3. TPES/GDP % by Year (line)  
+   4. TPES by Energy Product (horizontal bar)  
+   5. TPES by Product Type (donut: non-renewables vs renewables)  
+ Interactions: click a bar or donut slice to filter all charts to that product.
+7. Total Final Energy Consumption Page  
+ Purpose: deep-dive on demand side.  
+ KPI cards: TFC total, TFC per capita (TFC/POP %), TFC/TPES %.  
+ Charts:  
+   1. TFC by Year (area chart)  
+   2. TFC/TPES by Year (line chart)  
+   3. TFC/GDP % by Year (line chart)  
+   4. TFC/POP % by Year (line chart)  
+   5. TFC by Energy Product (donut)  
+   6. TFC by Product Type (donut: non-renewables vs renewables)  
+   7. TFC by Year & Energy Product Type (stacked area)  
+ Interactions: hover for exact share values, use legend to toggle fuels.
+8. Sectors Analysis Page  
+ Purpose: compare major end-use sectors in detail.  
+ KPI cards:  
+   – Industry share %, Residential share %, Transport share %  
+   – Agriculture-GDP (constant 2010 US$), Household expenditure (constant 2010 US$), Residential electricity consumption (kWh)  
+ Charts:  
+   1. Service-GDP %, Industry-GDP % & Agriculture-GDP % by Year (line)  
+   2. Industry, Residential & Transport shares by Year (line)  
+   3. Residential vs Transport share (2-slice donut)  
+   4. TFC by Year & Sectors (multi-series line)  
+   5. TFC by Sectors & Energy Product (stacked bar)  
+   6. TFC by Sector (donut chart: share of each sector)  
+   7. Electricity in Residential by Year (line chart)  
+ Interactions: click a segment or legend item to drill-through or filter, export data via “⋯”.
+9. Tips & Support  
+ • After changing any filter or slider, ensure you click “Apply” if shown.  
+ • Use Focus mode to view one chart full-screen for presentations.  
+• For technical issues or data questions, email.  Monaalsaid228@gmail.com
+ • Refer to the built-in Info panels on each page for on-the-spot guidance.
+
+## Team Members
+- Mona Abdulsabour Mohammed Alsayed
+- Hassan Medhat Rashed
+- Nancy Gmal Eldin Azazy
+- Alla Ragab Hany
+- Esraa Mohamed Hassan
+- Moustafa Ahmed Khalil
+
+## Course
+Microsoft Power BI Engineer (MS PBI)
+
+##Content
 1. Project Planning & Management
 1.1. Project Proposal
 1.1.1. Overview of the project
@@ -212,21 +273,6 @@ A navigation is done through clickable buttons in each page.
 
 4.2.4. Measures
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 4.2.5. Functional Requirements
 1. Data Visualization:
     - Interactive charts & graphs to display energy production & consumption patterns
@@ -327,11 +373,6 @@ File Management: Energy Balance - Final.pbix
 •	Tooltip Explanation: Implementation (Technical Description)
 
 
-
-
-
-
-
 Feature: Advanced Visualization Techniques (Report Page Tooltips)
 Description:  To enhance data granularity without compromising the dashboard's clean design, I implemented Report Page Tooltips. instead of standard text tooltips. I designed a separate, hidden report page containing a bar chart representing 'Energy Consumption by Sector' (Industry, Transport, Residential). 
 This page was linked to the main 'TFC by Year' visual. Power BI's internal logic automatically filters the tooltip based on the specific data point (Year) the user interacts with, creating a seamless drill-down experience."
@@ -348,14 +389,7 @@ By hovering over the 'Sector Share %' line chart, users can trigger a comparativ
 •	Visuals: High-quality screenshots from the Power BI dashboard showing the most critical insights. (Appendix B)
 7.4. Video Demonstration:
 7.5 Deployment & Execution
-README File – Includes:
-Installation steps
-	•	System requirements (hardware/software dependencies)
-	•	Configuration instructions
-	•	Execution guide (running the project locally or accessing a deployed version)
-	•	Executable Files & Deployment Link –
-	•	Compiled software or packaged application (e.g., .exe, .jar, .apk).
-	
+
 
 8. Insights and Recommendations concluded from data strategic analysis of Egypt's Energy System (1971-2018)
 8.1. Exponential Growth in Energy Demand Creates Sustained Pressure on Resources and Infrastructure.
