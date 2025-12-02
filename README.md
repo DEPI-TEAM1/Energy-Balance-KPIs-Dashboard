@@ -4,6 +4,15 @@
 ## Project Description
 This project aims to perform an in-depth data analysis of Egypt's energy balance (1971–2018), integrating robust analytical methods with sector-specific indicators to evaluate energy performance and sustainability progress.
 
+## Definitions and Notes:
+- TPES (Total Primary Energy Supply) The total amount of energy available to a country, including production, imports, and exports, and adjusting for changes in stocks.
+- TFC (Total Final Consumption) The total energy consumed by end-users, excluding losses in transmission and distribution.
+- GDP (Gross Domestic Product): The total monetary or market value of all the finished goods and services produced within a country's borders in a specific time period.
+- TPES/POP, TFC/POP: Per capita measures indicating the average energy consumption per person.
+- TPES/GDP, TFC/GDP: Indicators of energy efficiency, showing how much energy is used to produce a unit of GDP.
+- TFC/TPES: Reflects the efficiency of energy conversion and distribution, as well as the structure of the economy.
+- kWh: A unit of energy representing the consumption of one kilowatt of power over one hour. It's used for electricity.
+
 ## Files Included
 - dashboard.pbix - Main Power BI file
 - screenshots/ - Dashboard images
