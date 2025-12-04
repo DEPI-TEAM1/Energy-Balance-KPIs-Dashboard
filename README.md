@@ -298,6 +298,7 @@ A navigation is done through clickable buttons in each page.
 4.2.4. Measures
 <img width="461" height="663" alt="image" src="https://github.com/user-attachments/assets/71e0455c-d87d-4800-b7aa-d4ac7d451f69" />
 
+
 4.2.5. Functional Requirements
 1. Data Visualization:
     - Interactive charts & graphs to display energy production & consumption patterns
@@ -569,7 +570,7 @@ The dashboard tells a clear story: Egypt faces a dual challenge of massive, unab
 
 ## Appendix C: DAX Calculations Summary  
 
-1. Conversion of thermal power generation (%)
+## 1. Conversion of thermal power generation (%)
 DAX Formula:
 Conversion of thermal power generation％ = 
 ABS (DIVIDE ([Electricity Generated], [Total inputs for power generation]))
@@ -582,7 +583,7 @@ Where:
 •	Electricity Generated: Total electricity output produced by the power plants.
 •	Total inputs for power generation: Sum of all energy sources (inputs) consumed for electricity production.
 Note: The ABS function ensures the value is always positive.
-2. Electricity in Residential
+## 2. Electricity in Residential
 DAX Formula:
 Electricity in Residential = CALCULATE(    SUM('fEnergy sources and balance'[Value]),
     'fEnergy sources and balance'[Energy Balance Items] = "Residential",
@@ -607,7 +608,7 @@ IN {“Non-specified (industry)",
 •	'Energy Balance Items': Breakdown by sector (filtered for 'Residential').
 •	'Energy Product': Type of energy (filtered for 'Electricity').
 
-3. Electrification rate %
+## 3. Electrification rate %
 Electrification rate % = ABS (DIVIDE(CALCULATE(SUM('fEnergy sources and balance'[Value]),'fEnergy sources and balance'[Energy Product] ="Electricity”, fEnergy sources and balance'[Energy Balance Items]
 IN { "Non-specified (industry)",
 "Rail",
@@ -624,17 +625,16 @@ SUM('fEnergy sources and balance'[Value]),
 Description:
 Total electricity produced and sent out from power generation facilities.
 
-
-4. Industry Share%
+## 4. Industry Share%
 Industry Share% = DIVIDE ([Total Industry Sector], [TFC])
 Description:
 The ratio of the industry's total energy consumption to total final consumption (TFC), representing the industry's share in overall energy use.
-5. Natural gas Consumption
+## 5. Natural gas Consumption
 Natural gas Consumption = CALCULATE (SUM ('fEnergy sources and balance'[Value]), 
     'fEnergy sources and balance'[Energy Product] IN {"Gas"})
 Description:
 Total natural gas consumed across all sectors.
-5. Rate of distribution loss of electricity %
+## 6. Rate of distribution loss of electricity %
 ABS (DIVIDE (CALCULATE (SUM ('fEnergy sources and balance'[Value]),'fEnergy sources and balance'[Energy Balance Items] = "Distribution Losses”, fEnergy sources and balance'[Energy Product] = "Electricity"),
 CALCULATE (SUM ('fEnergy sources and balance'[Value]),'fEnergy sources and balance'[Energy Product] ="Electricity”, fEnergy sources and balance'[Energy Balance Items]
 IN {
@@ -648,14 +648,14 @@ IN {
 ))
 Description:
 Percentage of electricity lost during distribution, calculated as the share of distribution losses from the total electricity supplied to users.
-7. Residential Electricity %
+## 7. Residential Electricity %
 Residential Electricity % = 
 DIVIDE(    CALCULATE(SUM(...), ... = "Residential", ... = "Electricity"), 
     CALCULATE(SUM(...), ... = "Residential")
 )
 Description:
 Share of electricity in total residential energy consumption.
-7. Residential rate of traditional Biomass and waste %
+## 8. Residential rate of traditional Biomass and waste %
 Residential rate of traditional Biomass and waste % = 
 ABS (DIVIDE (
     CALCULATE (SUM(...), ... = "Residential", ... = "Combust. Renew. & Waste"),
@@ -663,11 +663,11 @@ ABS (DIVIDE (
 ))
 Description:
 Percentage share of traditional biomass and waste in the total residential energy consumption.
-9. Residential share%
+## 9. Residential share%
 Residential share% = DIVIDE ([Total in Residential], [TFC])
 Description:
 Share of total energy consumption attributed to the residential sector.
-10. TFC (Total Final Consumption)
+## 10. TFC (Total Final Consumption)
 TFC = 
 ABS(CALCULATE(TFC = ABS(CALCULATE(
 SUM('fEnergy sources and balance'[Value]),
@@ -705,18 +705,18 @@ SUM('fEnergy sources and balance'[Value]),
 ))
 Description:
 Sum of all final energy consumed by different sectors (industry, transport, residential, etc.).
-11. TFC/TPES
+## 11. TFC/TPES
 TFC/TPES = DIVIDE([TFC], [TPES])
 Description:
 Shows the proportion of total final energy consumed (TFC) out of the total primary energy supply (TPES).
-12. Total in Residential
+## 12. Total in Residential
 Total in Residential = CALCULATE (
     SUM ('fEnergy sources and balance'[Value]), 
     'fEnergy sources and balance'[Energy Balance Items] = "Residential"
 )
 Description:
 Total energy consumed by the residential sector.
-13. Total Industry Sector
+## 13. Total Industry Sector
 Total Industry Sector = CALCULATE (
 SUM ('fEnergy sources and balance'[Value]),
 FILTER (
@@ -740,7 +740,7 @@ FILTER (
 )
 Description:
 Total energy consumed in all industry-related segments.
-14. Total inputs for power generation
+## 14. Total inputs for power generation
 Total inputs for power generation = ABS (CALCULATE (
     SUM ('fEnergy sources and balance'[Value]),
     'fEnergy sources and balance'[Energy Product] IN {"Petroleum Products", "Gas", "Hydro Geotherm. Solar etc."},
@@ -748,11 +748,11 @@ Total inputs for power generation = ABS (CALCULATE (
 ))
 Description:
 The sum of all energy sources used as input for electricity generation.
-15. Total rate of traditional Biomass and waste %
+## 15. Total rate of traditional Biomass and waste %
 Total rate of traditional Biomass and waste % = ABS (DIVIDE (CALCULATE (SUM ('fEnergy sources and balance'[Value]),'fEnergy sources and balance'[Energy Balance Items] = "Residential”, fEnergy sources and balance'[Energy Product] ="Combust. Renew. & Waste"), [TFC]))
 Description:
 Share of traditional biomass and waste in total final energy consumption (TFC).
-16. TPES (Total Primary Energy Supply)
+## 16. TPES (Total Primary Energy Supply)
 TPES = ABS (CALCULATE (
 
     SUM ('fEnergy sources and balance'[Value]), 
