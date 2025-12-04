@@ -396,6 +396,7 @@ File Management: Energy Balance - Final.pbix
 •	Resolution: Standardized names in Excel using Find & Replace before importing.
 
 ## 7. Final Presentation & Reports
+
 7.1. User Manual:
 •	Interactivity Guide: How to use "Slicers" to filter by Energy Type (Oil, Gas, Hydro).
 •	Drill-Down: Instructions on how to click on a specific data point to see more details.
@@ -415,10 +416,13 @@ By hovering over the 'Sector Share %' line chart, users can trigger a comparativ
 7.2. Technical Documentation:
 •	Data Model Schema: A screenshot of the "Model View" in Power BI showing tables (Fact Tables & Dimension Tables) and the lines connecting them. (Appendix A)
 •	Measures List: A list of key DAX formulas used (e.g., Average Consumption, Max Production).(Appendix C)
+
 7.3. Project Presentation:
 •	Storytelling: A slide deck (PPT) summarizing the major shift in Egypt’s energy mix (Trend Analysis).
 •	Visuals: High-quality screenshots from the Power BI dashboard showing the most critical insights. (Appendix B)
+
 7.4. Video Demonstration:
+
 7.5 Deployment & Execution
 
 
@@ -485,12 +489,14 @@ By hovering over the 'Sector Share %' line chart, users can trigger a comparativ
 The 2022/2023 energy balance reveals an economy heavily anchored in Natural Gas (53%) and Petroleum (41%). While energy intensity is improving (indicating better efficiency per unit of GDP), the power sector remains the primary driver of gas demand, with significant conversion losses inherent to thermal generation.
 •	Renewable Energy Share: Fossil fuels still dominate Egypt's electricity generation, at 88% in 2023. Hydropower contributed 7%, and wind and solar accounted for 5%. The total installed capacity of renewable energy reached 7.7 GW across all types (wind, solar, and hydro).
 •	Consumption Trends: Primary energy consumption in Egypt showed a slight decline of 1% in 2023, following a 6% decline in 2022.
+
 1. Energy Supply Analysis: The Dominance of Gas
 Egypt's total primary energy supply (TES) for the fiscal year was 92,057 thousand tons of oil equivalent (ktoe). The mix highlights a rigid dependence on fossil fuels:
 •	Natural Gas: 53% of total supply.
 •	Crude Oil & Petroleum Products: 41% of total supply.
 •	Other Sources: Coal, Coke, and Renewables (Hydro, Wind, Solar) combined make up only roughly 6%.
 The "Energy Balance Sankey 2023" confirms that natural gas is the backbone of the system, feeding both the massive power generation sector and industrial feedstocks.
+
 2. Sectoral Consumption: Transport vs. Industry
 Total Final Energy Consumption (FEC) stood at 58,646 ktoe. The consumption behavior varies starkly by sector:
 
@@ -499,15 +505,18 @@ Transport	38% (Highest)	Almost exclusively Petroleum Products.
 Industry	27%	Mixed (Gas, Electricity, Petroleum).
 Residential	21%	Heavily reliant on Electricity and Natural Gas.
 Others	14%	Includes Trade, Services, Agriculture.
+
 3. Power Systems & Electricity Generation
 For a power systems engineer, the conversion and loss data in this report is critical. The electricity sector is the primary "sink" for natural gas supply.
 •	Generation Mix: 59% of Egypt's total natural gas supply is consumed solely for electric power generation.
 •	Grid Performance:
 o	Transmission & Distribution (T&D) Losses: 3,521 ktoe.
 o	Comparing T&D losses (3,521) to final consumption (14,281), the grid losses represent a significant percentage of delivered energy, highlighting an area for potential infrastructure optimization.
+
 4. Industrial Utilization: Energy vs. Feedstock
 The industrial sector consumed 13,269 ktoe of Natural Gas. However, not all of this is burned for power:
 •	Fertilizers: This specific sub-sector consumed 37% of industrial natural gas.
+
 5. Energy Intensity Trends (Efficiency)
 A positive trend is observed in the "Energy Intensity" indicators, which measure energy used per unit of GDP.
 •	Total Supply Intensity: Dropped from 14 (2015/16) to 11 (2022/23).
@@ -516,12 +525,14 @@ Insight: Egypt is generating more economic value (GDP) for every unit of energy 
 The 2022/2023 energy balance reveals an economy heavily anchored in Natural Gas (53%) and Petroleum (41%). While energy intensity is improving (indicating better efficiency per unit of GDP), the power sector remains the primary driver of gas demand, with significant conversion losses inherent to thermal generation.
 •	Renewable Energy Share: Fossil fuels still dominate Egypt's electricity generation, at 88% in 2023. Hydropower contributed 7%, and wind and solar accounted for 5%. The total installed capacity of renewable energy reached 7.7 GW across all types (wind, solar, and hydro).
 •	Consumption Trends: Primary energy consumption in Egypt showed a slight decline of 1% in 2023, following a 6% decline in 2022.
+
 1. Energy Supply Analysis: The Dominance of Gas
 Egypt's total primary energy supply (TES) for the fiscal year was 92,057 thousand tons of oil equivalent (ktoe). The mix highlights a rigid dependence on fossil fuels:
 •	Natural Gas: 53% of total supply.
 •	Crude Oil & Petroleum Products: 41% of total supply.
 •	Other Sources: Coal, Coke, and Renewables (Hydro, Wind, Solar) combined make up only roughly 6%.
 The "Energy Balance Sankey 2023" confirms that natural gas is the backbone of the system, feeding both the massive power generation sector and industrial feedstocks.
+
 2. Sectoral Consumption: Transport vs. Industry
 Total Final Energy Consumption (FEC) stood at 58,646 ktoe. The consumption behavior varies starkly by sector:
 Sector	Share of Consumption	Primary Energy Source
@@ -529,15 +540,18 @@ Transport	38% (Highest)	Almost exclusively Petroleum Products.
 Industry	27%	Mixed (Gas, Electricity, Petroleum).
 Residential	21%	Heavily reliant on Electricity and Natural Gas.
 Others	14%	Includes Trade, Services, Agriculture.
+
 3. Power Systems & Electricity Generation
 For a power systems engineer, the conversion and loss data in this report is critical. The electricity sector is the primary "sink" for natural gas supply.
 •	Generation Mix: 59% of Egypt's total natural gas supply is consumed solely for electric power generation.
 •	Grid Performance:
 o	Transmission & Distribution (T&D) Losses: 3,521 ktoe.
 o	Comparing T&D losses (3,521) to final consumption (14,281), the grid losses represent a significant percentage of delivered energy, highlighting an area for potential infrastructure optimization.
+
 4. Industrial Utilization: Energy vs. Feedstock
 The industrial sector consumed 13,269 ktoe of Natural Gas. However, not all of this is burned for power:
 •	Fertilizers: This specific sub-sector consumed 37% of industrial natural gas.
+
 5. Energy Intensity Trends (Efficiency)
 A positive trend is observed in the "Energy Intensity" indicators, which measure energy used per unit of GDP.
 •	Total Supply Intensity: Dropped from 14 (2015/16) to 11 (2022/23).
