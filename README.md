@@ -150,7 +150,7 @@ This project aims to perform an in-depth data analysis of Egypt's energy balance
 6. Generate actionable insights for decision-makers.
 1.2. Project Plan
 1.2.1 Timeline (Gantt chart)
-<img width="872" height="496" alt="image" src="https://github.com/user-attachments/assets/930bfce3-a4da-4f2e-aad8-304ec3335b95" />
+<img width="1024" height="768" alt="Blue Aesthetic Professional Gantt Graph 4 December" src="https://github.com/user-attachments/assets/3b5f299b-b6bf-4ac3-a6aa-2da3f56d686f" />
 
 1.2.2. Milestones
 - Data Collection & Cleaning  
