@@ -431,42 +431,49 @@ By hovering over the 'Sector Share %' line chart, users can trigger a comparativ
 •	Implication & Recommendation:
 •	Implication: This relentless growth puts immense pressure on the energy infrastructure (power plants, grids) and requires massive, continuous investment just to keep pace with demand, posing a challenge to national energy security.
 •	Recommendation: The national energy strategy must evolve from merely "meeting demand" to actively "managing demand." It is critical to implement robust energy efficiency and conservation policies across all sectors to moderate the demand growth rate and make it more sustainable.
+ 
  8.2. The Transportation Sector Emerges as the New Primary Driver of Energy Consumption Growth, Overtaking Industry.
 •	Observation: The chart (Industry Share%, Residential share% and Transportation share% by Year) reveals a major structural shift in consumption patterns. While the industrial sector's share was historically dominant, the transportation sector's share has been steadily rising since the 1990s, eventually surpassing industry to become the largest consuming sector.
 •	Context: This shift reflects a significant increase in private vehicle ownership, a reliance on road transport for freight, and the lack of sufficient and efficient mass transit alternatives nationwide.
 •	Implication & Recommendation:
 •	Implication: The transportation sector is now the single greatest challenge to achieving energy sustainability and reducing emissions, given its near-total dependence on petroleum products.
 •	Recommendation: An urgent and targeted strategy for the transportation sector is required, focusing on developing public transport networks (e.g., metro, electric trains), incentivizing the shift to electric vehicles (EVs), and improving vehicle fuel efficiency standards.
+
 8.3. Overall Energy System Efficiency Shows a Long-Term Decline.
 •	Observation: The (TFC/TPES by Year) chart, which shows the ratio of final energy consumed to the primary energy supplied, displays a general downward trend over the decades. The ratio was higher in the 1970s and 80s and has been declining since, meaning the gap between the energy produced and the energy that reaches the end-user is widening.
 •	Context: The primary driver for this decline is the increasing share of electricity in the final consumption mix. The process of converting fossil fuels to electricity in thermal power plants involves significant inherent energy losses. As electricity's share grows, the system's overall efficiency drops.
 •	Implication & Recommendation:
 •	Implication: Egypt is wasting a growing percentage of its primary energy resources in conversion and transmission processes. This represents a major economic and environmental loss.
 •	Recommendation: A concentrated effort must be made to boost the efficiency of the power generation sector (using modern technologies) and reduce losses in the distribution grid (the `Rate of distribution loss of electricity` chart shows that losses are high and volatile).
+ 
  8.4. The Economy Has Not Decoupled Economic Growth from Energy Consumption.
 •	Observation: The (Sum of TFC/GDP %) chart, which measures the energy intensity of the economy, does not show a clear and sustained long-term decline. After some fluctuations, the curve appears to have flattened or is declining very slowly in recent years.
 •	Context: This means that every unit of GDP requires an amount of energy that has not significantly decreased over time. In contrast, advanced economies typically show a clear drop in this indicator as they shift towards technology and service-based industries.
 •	Implication & Recommendation:
 •	Implication: This tight coupling makes future economic growth very energy-intensive and costly, limiting the ability to achieve environmentally sustainable growth.
 •	Recommendation: National policies must be implemented to actively "decouple" economic growth from energy consumption by promoting knowledge-based and service industries and enforcing strict energy efficiency codes for new buildings and factories.
+
 8.5. A Strategic Shift in the Energy Mix: From Oil Dominance to Heavy Reliance on Natural Gas
 •	Observation: The TPES by Year and Energy Product chart clearly illustrates a fundamental transformation in the primary energy mix. While crude oil was the dominant source until the late 1990s, natural gas began to grow exponentially, becoming Egypt's largest single source of energy since the early 2000s.
 •	Context: This was not a random shift, but the result of a strategic state policy following major discoveries of natural gas fields in the Mediterranean Sea. This gas was directed to fuel new power plants and expand the distribution network to homes and factories.
 •	Implication & Recommendation:
 •	Implication: While this transition successfully reduced reliance on imported oil and enhanced energy security, it created a new form of dependency on a single fossil fuel (natural gas), leaving the economy exposed to long-term production and price risks.
 •	Recommendation: The next strategic energy transition must be from reliance on natural gas to true diversification towards renewable sources. Egypt should not wait for gas resources to deplete before initiating this critical shift.
+
 8.6. The Contribution of Renewable Energy Has Remained Marginal for Decades
 •	Observation: Despite the overall massive growth in energy supply, the TPES by Year and Energy Product Type donut and area charts show that the contribution of renewables has remained consistently low, accounting for only about 5% of the Total Primary Energy Supply.
 •	Context: Historically, political and investment focus was centered on exploiting discovered fossil fuel resources (first oil, then gas). Large-scale renewable energy projects only began to gain significant momentum in the very last few years of the period covered by this analysis.
 •	Implication & Recommendation:
 •	Implication: This represents a massive missed opportunity over several decades to leverage Egypt's rich natural resources (sun and wind) to achieve environmental and economic sustainability, and to create jobs in the green economy.
 •	Recommendation: More ambitious and binding renewable energy targets must be set, supported by strong investment incentives and streamlined regulations to accelerate project implementation and grid integration.
+
 8.7. Dominance of Petroleum Products in Final Consumption Reveals the Economy's Main Artery and its Vulnerability
 •	Observation: The TFC by Energy Product donut chart shows that petroleum products (gasoline, diesel, etc.) account for the largest share of final energy consumption, at over 56%.
 •	Context: This dominance is directly tied to the transportation sector's leading role in energy consumption (cars, trucks, buses), in addition to other uses in industry and agriculture.
 •	Implication & Recommendation:
 •	Implication: This heavy dependence on petroleum products makes the cost of transport and goods in the Egyptian economy extremely sensitive to global oil price fluctuations. It is also the primary source of urban air pollution.
 •	Recommendation: More than anything else, this statistic underscores the urgent need to diversify energy sources within the transportation sector. Investing in transport electrification (EVs) and expanding electric mass transit networks is not just an environmental luxury; it is a strategic economic imperative.
+
 8.8. The Success Story of "Electrification and Gasification" Reshaped Demand but Exposed the Efficiency Challenge
 •	Observation: The TFC by Year and Energy Product area chart displays massive growth in the final consumption of electricity and natural gas since the 1980s. Together, they now represent a very significant share of final consumption (approx. 18.4% each).
 •	Context: This reflects successful government policies to expand the national electricity grid and to connect homes and factories to the natural gas network as an alternative to LPG cylinders and heavy fuel oil.
