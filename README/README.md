@@ -139,8 +139,10 @@ Microsoft Power BI Engineer (MS PBI)
 1.1.1. Overview of the project
 According to the United Nations Division, an energy balance is "an accounting framework for compiling and synthesizing data on all energy products entering and present in a given country and its national territories during a specific reference period". 
 Energy balance analysis is crucial for evaluating national performance, policy alignment, and sustainability. For Egypt, understanding the balance between energy production and consumption enables better decision-making and supports strategic, economic, and environmental planning.
+
 1.1.2. Objectives
 This project aims to perform an in-depth data analysis of Egypt's energy balance (1971–2018), integrating robust analytical methods with sector-specific indicators to evaluate energy performance and sustainability progress.
+
 1.1.3. Scope
 1. Assess Egypt’s status in relation to national and international commitments.  
 2. Support the achievement of sustainable energy targets.  
@@ -158,8 +160,10 @@ This project aims to perform an in-depth data analysis of Egypt's energy balance
 - Relationship Modeling  
 - DAX Measures Calculation 
 - Data Visualization and Dashboard design.
+
 1.2.3. Deliverables:
 Dynamic, interactive and attractive dashboard that tell the story of Egyptian Energy data balance in insightful way showing the major KPIs in a way that allow stakeholders to take valuable decisions and potentiate political plans for future
+
 1.2.4. Resource allocation:
 Approximately 10–15% of the total project timeline to ensure the system's sustainability and regulatory compliance. 40% of work package assigned primarily to the Power BI Analyst for technical mapping and DAX measures to validate business logic, such as defining specific KPIs for energy Efficiency and renewable energy targets. 30 % of work was for visualizing the energy data in interactive a strategic view in addition to adding a sanky diagram an additional visualization tool for the most recent energy balance data 2023. Finally, 15% of work was for Documentation, presenting the project in different platforms such as git-hub.
 
@@ -737,6 +741,7 @@ Total in Residential = CALCULATE (
 )
 Description:
 Total energy consumed by the residential sector.
+
 ## 13. Total Industry Sector
 Total Industry Sector = CALCULATE (
 SUM ('fEnergy sources and balance'[Value]),
